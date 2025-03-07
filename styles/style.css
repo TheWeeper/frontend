@@ -14,12 +14,62 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+  display: flex;
+  background-color: #f2f2f2;
+  position: relative;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 102px;
+  line-height: 96px;
+  margin: auto auto auto 64px;
+  width: 730px;
+  z-index: 2;
+}
+
+.subtitle {
+  width: 388px;
+  position: absolute;
+  z-index: 2;
+  left: 64px;
+  bottom: 30px;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.logo {
+  width: 228px;
+  height: 32px;
+}
+
+.logo_place_header {
+  position: absolute;
+  margin: 30px auto auto 64px;
+}
+
+.main-illustration {
+  position: absolute;
+  width: 765px;
+  height: 608px;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.square-pic {
+  background-color: #2f80ed;
+  width: 568px;
+  height: 568px;
+  top: 64px;
+  right: 0;
+  position: absolute;
 }
 
 /* и элемента с модификатором вида ключ-значение */
